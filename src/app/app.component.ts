@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
       <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
     </header>
   </a>
+  <a [routerLink]="['/contact']">Contact</a>
     <section class="content">
       <router-outlet></router-outlet>
     </section>
